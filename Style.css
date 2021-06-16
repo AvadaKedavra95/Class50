@@ -1,0 +1,49 @@
+
+h2{
+    color:red;
+    border:inset;
+    border-width: 10px;
+    border-color: rgb(0, 162, 255);
+    font-variant: small-caps;
+    text-shadow: 2px 3px 1px white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.header{
+    border: inset;
+    background-color: rgb(145, 215, 255);
+    display:flex;
+    justify-content: center;
+
+}
+
+.menu{
+    border: inset;
+    background-color: rgb(187, 255, 184);
+}
+     
+.grid{
+    display : flex;
+    flex-wrap : wrap;
+    justify-self : space-evenly;
+
+}
+
+.item{
+    border:solid;
+}
+
+.footer{
+   display:flex;
+   justify-content:flex-end;
+
+}
+
+p,h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+
+
+
